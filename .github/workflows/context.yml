@@ -1,0 +1,20 @@
+name: context
+on:
+  workflow_dispatch:
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
+
+# https://josh-ops.com/posts/github-context/
+
+
+jobs:
+  check:
+    name: context time
+    runs-on: ubuntu-latest
+    steps:
+        - name: Write GitHub context to log
+          env:
+            GITHUB_CONTEXT: ${{ toJSON(github) }}
+          run: echo "$GITHUB_CONTEXT"
