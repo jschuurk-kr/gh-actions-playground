@@ -5,6 +5,7 @@ title: 'Epic: '
 labels: ''
 assignees: ''
 type: epic
+project: my-project
 area: epic
 
 ---
