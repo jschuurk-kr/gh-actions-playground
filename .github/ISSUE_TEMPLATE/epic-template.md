@@ -4,6 +4,8 @@ about: template for epics
 title: 'Epic: '
 labels: ''
 assignees: ''
+type: epic
+area: epic
 
 ---
 
