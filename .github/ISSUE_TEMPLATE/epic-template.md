@@ -5,7 +5,7 @@ title: 'Epic: '
 labels: ''
 assignees: ''
 type: epic
-project: my-project
+projects: [jschuurk-kr/my-project]
 area: epic
 
 ---
